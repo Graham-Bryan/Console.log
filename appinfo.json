@@ -1,0 +1,49 @@
+{
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_LATITUDE": 2,
+        "KEY_LONGITUDE": 3,
+        "KEY_SUNRISE": 4,
+        "KEY_SUNSET": 5,
+        "KEY_TEMPERATURE": 0,
+        "cmd": 99
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "Gapp",
+    "longName": "console.log",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/rotary_icon.png",
+                "name": "MENU",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9:.A-Z a-z]",
+                "file": "fonts/Fixedsys500c.ttf",
+                "name": "FONT_20",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:.A-Za-z -]",
+                "file": "fonts/Fixedsys500c.ttf",
+                "name": "FONT_14",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "console.log",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "a5be9f00-39d7-4240-b11d-bd793382b83c",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
